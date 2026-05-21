@@ -1,0 +1,282 @@
+/* Заголовок */
+
+.mainTitle{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    font-size: 45px;
+    text-align: center;
+}
+/* Информация */
+
+.inf {
+    margin: 0px;
+    font-size: 32px;
+    float: none;
+    height: auto;
+    width: 800px;
+}
+
+/* Фигура под текстом */
+
+.shape{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.rectangle{
+    background-color: #ff7043;
+    position: relative;
+    z-index: 1;
+    height: 50px;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.trian_left{
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-right: 50px solid #ff7043;
+    margin-left: 300px;
+}
+
+.trian_right{
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-left: 50px solid #ff7043;
+}
+
+/* История */
+.basketball_history{
+    margin-left: 25px;
+    font-size: xx-large;
+    display: flex;
+}
+
+.basketball_history > p{
+    width: 900px;
+    line-height: 1.3;
+}
+
+/* Счет */
+#score {
+    height: auto;
+    float: none;
+    
+}
+
+#score > h1{
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#score > ul{
+    font-size: x-large;
+}
+
+#score > ul > li{
+    margin-top: 15px;
+}
+
+/* Правила */
+.rulesh{
+    display: flex;
+    float: left;
+    justify-content: flex-start;
+}
+
+.rulesh_text{
+    position: absolute;
+    z-index: 2;
+    margin: 0px;;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.rules_misc{
+    display: flex;
+    flex-direction: column;
+}
+/*Основные правила  */
+.rules_default{
+    height: 350px;
+    display: flex;
+}
+
+.rules_default > div > h1{
+    margin-top: 15px;
+    margin-bottom: 0px;
+    width: 700px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rules_default > div > ul{
+    width: 800px;
+    font-size: x-large;
+    text-align: justify;
+    float: left;
+    margin-top: 0px;
+}
+
+.rules_default > div > ul > li{
+    margin-top: 25px;
+}
+/* Правила со временем */
+
+.rules_time{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.time_block{
+    margin-left: 200px;
+}
+
+.time_block > ul{
+    width: 900px;
+    font-size: x-large;
+    text-align: justify;
+    
+}
+
+.time_block > ul > li{
+    margin-top: 25px;
+}
+
+.time_block > h1{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+/* Изображения и иконки */
+.photoStreet {
+    width: 900px;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+}
+
+.history_image{
+    width: 500px;
+    margin-left: 40px;
+}
+
+.icon_ball{
+    height: 36px;
+    margin-left: 10px;
+}
+.basketball_court{
+    margin-top: 10px;
+    height: 340px;
+}
+
+.icon_time{
+    height: 36px;
+    margin-left: 10px;
+}
+
+.basket{
+    height: 430px;
+    margin-left: 15px;
+}
+
+.basket > img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.github{
+    height: 25px;
+}
+
+
+/* Задний фон */
+.back_2{
+    background-color: rgba(5, 0, 29, 0.5);
+    width: 97vw;
+    display: flex;
+    border-radius: 30px;
+}
+
+body {
+    background-color: #120d2e;
+}
+
+#block1 {
+    background-color: rgba(5, 0, 29, 0.5);
+    width: 97vw;
+    display: flex;
+    border-radius: 30px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/* Разметка и верстка */
+#rules {
+    float: left;
+    text-indent: 25px;
+    width: max-content;
+}
+
+#block1{
+    height: 675px;
+    display: flex;
+}
+
+#header{
+    background-color: #ff7043;
+    height: 50px;
+}
+
+#main{
+    background-color: #120d2e;
+    height: 2000px;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+#footer{
+    background-color: #ff7043;
+    height: 50px;
+    display: flex;
+}
+
+#footer > p {
+    display: flex;
+    padding-left: 10px;
+    padding-right: 30px;
+    align-items: center;
+    margin: 0px;
+}
+
+#footer > a{
+    display: flex;
+    text-align: justify;
+    align-items: center;
+}
+
+
+
+
+/* Тёмная тема */
+:root {
+  color-scheme: light dark;
+}
