@@ -228,6 +228,12 @@ body {
     padding-bottom: 10px;
 }
 
+/* Ссылки */
+a{
+    color: white;
+    text-decoration: none;
+}
+
 
 /* Разметка и верстка */
 #rules {
@@ -271,6 +277,7 @@ body {
     display: flex;
     text-align: justify;
     align-items: center;
+    font-size: large;
 }
 
 
