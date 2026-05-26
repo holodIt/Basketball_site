@@ -3,32 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basketball</title>
+    <meta name="description" content="Всё о баскетболе: история, правила, система подсчёта очков. Обучающая страница для начинающих.">
+    <title>Баскетбол — история и правила</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="header">
+    <header>
         <h1 class="mainTitle">Баскетбол</h1>
-        </div>
-        <div id="main">
-            <div id="block1">
-                <img src="img/Street.jpg" alt="basketball" class="photoStreet">
-                
-                <div id="score">
-                    <p class="inf">
-                        Баскетбол — олимпийский вид спорта, командная игра, цель которой — забросить мяч в кольцо
-                        соперника больше раз, чем противник за 4 четверти
-                    </p>
-                    <h1>Счёт:</h1>
-                    <ul>
-                        <li>3 очка: Бросок из-за трехочковой линии.</li>
-                        <li>2 очка: Бросок со средней или близкой дистанции.</li>
-                        <li>1 очко: Штрафной бросок.</li>
-                    </ul>
-                </div>
-            </div>
+    </header>
 
-        <div class="history">
+    <main>
+        <section id="block1">
+            <img src="img/Street.jpg" alt="Уличная баскетбольная площадка" class="photoStreet" loading="lazy">
+
+            <div id="score">
+                <p class="inf">
+                    Баскетбол — олимпийский вид спорта, командная игра, цель которой — забросить мяч в кольцо
+                    соперника больше раз, чем противник за 4 четверти
+                </p>
+                <h1>Счёт:</h1>
+                <ul>
+                    <li>3 очка: Бросок из-за трехочковой линии.</li>
+                    <li>2 очка: Бросок со средней или близкой дистанции.</li>
+                    <li>1 очко: Штрафной бросок.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="history">
             <div class="shape">
                 <div class="trian_left"></div>
                 <div class="rectangle">
@@ -38,15 +40,15 @@
             </div>
 
             <div class="basketball_history">
-                <p>Баскетбол был придуман в декабре 1891 года преподавателем колледжа в Спрингфилде (США) Джеймсом Нейсмитом. 
-                    Чтобы разнообразить уроки гимнастики, он прикрепил две корзины из-под персиков к балконам и предложил студентам забрасывать туда мяч. 
+                <p>Баскетбол был придуман в декабре 1891 года преподавателем колледжа в Спрингфилде (США) Джеймсом Нейсмитом.
+                    Чтобы разнообразить уроки гимнастики, он прикрепил две корзины из-под персиков к балконам и предложил студентам забрасывать туда мяч.
                     С тех пор игра прошла путь от школьной забавы до мирового вида спорта.
                 </p>
-                <img src="img/history.jpeg" alt="history" class="history_image">
+                <img src="img/history.jpeg" alt="Фото Джеймса Нейсмита с баскетбольной корзиной" class="history_image" loading="lazy">
             </div>
+        </section>
 
-        </div>
-        <div class="rulesh">
+        <section class="rules">
             <div class="shape">
                 <div class="trian_left"></div>
                 <div class="rectangle">
@@ -54,25 +56,24 @@
                 </div>
                 <div class="trian_right"></div>
             </div>
-        </div>
-        <div id="rules">
+
             <div class="back_2">
                 <div class="rules_misc">
                     <div class="rules_default">
                         <div>
-                            <h1>Основы состава и времени<img src="icons/icon_ball.png" alt="ball" class="icon_ball"></h1>
+                            <h1>Основы состава и времени<img src="icons/icon_ball.png" alt="Мяч" class="icon_ball"></h1>
                             <ul>
                                 <li>Команды: На площадке по 5 игроков от каждой команды.</li>
                                 <li>Длительность: 4 четверти по 10 минут (в НБА — по 12 минут).</li>
                                 <li>Начало: Игра начинается со сбрасывания в центре.</li>
                             </ul>
-                        </div>                        
-                        <img src="img/court.jpg" alt="basketballCourt" class="basketball_court">
+                        </div>
+                        <img src="img/court.jpg" alt="Схема баскетбольной площадки" class="basketball_court" loading="lazy">
                     </div>
                     <div class="rules_time">
-                        <div class="basket"><img src="img/basket.jpg" alt="backet"></div>
+                        <div class="basket"><img src="img/basket.jpg" alt="Баскетбольная корзина" loading="lazy"></div>
                         <div class="time_block">
-                            <h1>Временные ограничения <img src="icons/time.png" alt="time" class="icon_time"></h1>
+                            <h1>Временные ограничения <img src="icons/time.png" alt="Часы" class="icon_time"></h1>
                             <ul>
                                 <li>24 секунды: Время на атаку.</li>
                                 <li>8 секунд: Время на перевод мяча из своей зоны в зону соперника.</li>
@@ -80,18 +81,15 @@
                                 <li>3 секунды: Время, которое атакующий может провести в штрафной зоне соперника.</li>
                             </ul>
                         </div>
-                        
                     </div>
                 </div>
-        
-                
             </div>
-        </div>
-    </div>
-    <div id="footer">
-        <p>Холод Роман</p>
-        <a href="https://github.com/holodIt" target="_blank">Мой github <img src="icons/github.png" alt="github" class="github"></a>
-    </div>
+        </section>
+    </main>
 
+    <footer>
+        <p>Холод Роман</p>
+        <a href="https://github.com/holodIt" target="_blank">Мой github <img src="icons/github.png" alt="Иконка GitHub" class="github"></a>
+    </footer>
 </body>
 </html>
